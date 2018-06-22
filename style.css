@@ -1,0 +1,156 @@
+body{
+    background-color: #501F3A;
+    font-family: arial;
+    width: 0 auto ;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #14A098;
+    background-image: url(assets/Marvel_Studios_2016_Transparent_Logo.png); 
+    text-align: center;
+    padding: 100px;
+}
+
+h1{
+    font-weight: bold; 
+}
+.menu{
+    list-style: none;
+}
+.menu > ul{
+display: flex;
+}
+.menu *{
+margin: 0;
+padding: 0;
+}
+.menu ul{
+list-style: none;
+}
+.menu >ul li a{
+    display: block;
+    position: absolute;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.menu > ul li {
+    position: absolute;
+    margin-top: 150px;
+}
+.menu > ul li > a i.fa{
+    position: absolute;
+}
+.menu li a:hover{
+    display: block;
+    position: absolute;
+    background: red;
+    color:white;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #0F292F;
+}
+
+
+.topnav li {
+    float: left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase; 
+    margin-bottom: 7px;
+    border-right: 1px solid gray; 
+}
+
+i {
+    margin-bottom: 0px; 
+    padding-right: 38px;
+}
+
+
+.topnav li:hover{
+   
+    position: relative;
+    background-color: red;
+    color: white;
+    box-shadow: 4px 8px 18px -5px black;
+    transition: all 0.3s ease; 
+}
+/*begin test*/
+
+.submenu li ul {
+    position: relative;
+    min-width: 150px;
+    text-decoration: none;
+    border: 1px; 
+
+}
+.submenu li > ul li{
+    border:3px solid black;
+}
+
+.submenu li > ul li a{
+    padding: 50px;
+    text-transform: none;
+    background:gray;
+}
+
+
+section {
+	background-color: #cccccc;
+    padding-top: 20px;
+    padding-left: 20px; 
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 8px; 
+    font-size: 22px;
+}
+
+.img-adaptive{
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin-bottom: 30px;
+}
+section p{
+    font-size: 28px;
+}
+
+footer {
+	float:left;
+	overflow: hidden;
+    background-color: #0F292F;
+    height: 40px;
+    color:white;
+    text-align: center;
+    font-size:26px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px; 
+   
+}
+.content{
+    width: 100%;
+}
+
+.column {
+    text-align: justify;
+    float: left;
+    width: 30.2%;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
